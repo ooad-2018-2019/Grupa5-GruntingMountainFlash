@@ -1,0 +1,5 @@
+SOLID PRINCIPI 
+
+Prema priloženom dijagramu može se primijetiti da svaka klasa ima tacno jednu ulogu i nije potrebno iz neke klase praviti više razlicitih klasa, što zadovoljava S princip. 
+Dalje, možemo primijetiti da promjena bilo koje klase ne izaziva promjenu neke druge klase, što je prema O principu. Takoder, svaku klasu možemo zamijeniti svim svojim podklasama, te to ne bi izazvalo neke radikalne promjene u radu sistema, tj. program bi neometano nastavio raditi, što je u skladu sa L principom.
+Pored toga, citljivost koda je na zadovoljavajucem nivou. Zavisnost klase i klase izvedene iz neke apstraktne klase implementira se preko apstraktne klase i sl, što je u skladu sa D principom. Prema izloženom, možemo reci da je dijagram aktivnosti napisan prema SOLID principima.
